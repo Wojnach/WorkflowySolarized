@@ -5,7 +5,7 @@ scheme for use with [Workflowy](https://workflowy.com/) - mainly in combination 
 
 ## Installation
 
-Use either the `WorkflowySolarized*.css` files in a
+Use either `WorkflowySolarized*.css` files in a
 plugin like [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe) to apply the 
 color scheme.
 
