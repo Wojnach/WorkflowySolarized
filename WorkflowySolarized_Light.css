@@ -147,10 +147,10 @@ h1, h2, h3, h4, h5, h6, p, li,
 
 ::selection
 {
-  color: #B58900;
-  background-color: #586E75 !important; 	
-/*       color: #268BD2; */
-/*   background-color: #EEE8D5 !important;  */
+/*     color: #B58900;
+    background-color: #586E75 !important;    */
+  color: #FDF6E3;
+  background-color: #B58900 !important;   
 }
 
 /* FADE IN TOOLBAR ON HOVER */
