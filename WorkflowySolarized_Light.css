@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p, li,
 .entry-title
 {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+/*     font-weight: bold; */
 }
 
 .edge,
@@ -68,14 +68,14 @@ h1, h2, h3, h4, h5, h6, p, li,
 .project.done > .name > .content
 {
     color: #839496;	
-    opacity: 0.8;
-    font-weight: 500;
+    opacity: 0.6;
+/*     font-weight: 500; */
 }
 
 .project.done > .notes > .content{
     color: #93A1A1;
-	opacity: 0.8;
-    font-weight: 500;
+	opacity: 0.6;
+/*     font-weight: 500; */
 }
 
 .project > .name > .content
@@ -159,6 +159,7 @@ h1, h2, h3, h4, h5, h6, p, li,
 {
   margin-top: 30px;
 }
+
 .header 
 {
     opacity: 0;
@@ -168,19 +169,18 @@ h1, h2, h3, h4, h5, h6, p, li,
     -webkit-transition-duration: .5s;
     -moz-transition-duration: .5s;
     -o-transition-duration: .5s;
-     transition-delay: .3s;
+    transition-delay: .3s;
 } 
 
+/* Workflowy for Coders add on */
 .wikistyle,
-textarea.enhanced 
-{
-  background: #073642;
-  border-color: #073642;
+textarea.enhanced {
+  background: #eee8d5;
+  border-color: #eee8d5;
   color: #657b83;
-  font-family: inherit; 
-}
-.wikistyle a,
-textarea.enhanced a 
-{
-    color: #268bd2; 
-}
+  font-family: inherit; }
+  .wikistyle a,
+  textarea.enhanced a {
+    color: #268bd2; }
+
+
