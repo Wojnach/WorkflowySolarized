@@ -27,8 +27,8 @@ h1, h2, h3, h4, h5, h6, p, li,
 /*     font-family: 'Lato', sans-serif; */
 /*     font-family: 'Terminus', sans-serif; */
 /*     font-family: 'DejaVuSans', sans-serif; */
-/*     font-family: 'Roboto', sans-serif; */
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
+/*     font-family: 'Ubuntu', sans-serif; */
 /*     font-weight: 500; */
 /*     font-weight: bold; */
 }
@@ -71,6 +71,13 @@ h1, h2, h3, h4, h5, h6, p, li,
   color: #93A1A1; 
 }
 
+.notes > .content {
+  height: auto !important;
+  display: block !important;
+  -webkit-line-clamp: none !important;
+  max-height: none !important;
+}
+
 .project.done > .name > .content
 {
   opacity: 0.5;
@@ -86,13 +93,15 @@ h1, h2, h3, h4, h5, h6, p, li,
 
 .project > .name > .content{
     border-color: #073642;
-/*     color: #839496;   */
-  color: #93A1A1; 
+  color: #93A1A1;
+    color: #839496; 
 }
 
+
 .project > .notes > .content{
-/*     color: #657B83;   */
-  color: #839496; 
+/*     color: #586E75; */
+/*     color: #657B83; */
+  color: #839496;
 }
 
 .selected.done {
@@ -149,8 +158,13 @@ h1, h2, h3, h4, h5, h6, p, li,
 /*    color: #93A1A1;
     background-color: #268BD2 !important; */
     color: #268BD2;
-    background-color: #93A1A1 !important; 
-    
+    background-color: #93A1A1 !important;    
+}
+
+.highlighted::before,
+.addedToSelection::before
+{
+    background-color: #073642 !important;
 }
 
 /* FADE IN TOOLBAR ON HOVER */
@@ -184,3 +198,4 @@ textarea.enhanced a
 {
     color: #268bd2; 
 }
+

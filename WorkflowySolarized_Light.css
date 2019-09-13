@@ -1,14 +1,14 @@
 
 /*
-	#CB4B16 == ORANGE
-	#268BD2 == BLUE
-	#6C71C4 == PURPLE
+  #CB4B16 == ORANGE
+  #268BD2 == BLUE
+  #6C71C4 == PURPLE
     #2AA198 == SLIME GREEN
 */
 
 body 
 {
-	background: #fdf6e3;
+  background: #fdf6e3;
 }
 
 body,
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p, li,
 .entry-title
 {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+/*     font-weight: bold; */
 }
 
 .edge,
@@ -62,31 +62,40 @@ h1, h2, h3, h4, h5, h6, p, li,
 .selected.project > .notes > .content,
 .selected.project.done > .notes > .content{
     padding: 0px 5px;    
-	color: #586E75;	
+  color: #586E75; 
+}
+
+.notes > .content {
+  height: auto !important;
+  display: block !important;
+  -webkit-line-clamp: none !important;
+  max-height: none !important;
 }
 
 .project.done > .name > .content
 {
-    color: #839496;	
-    opacity: 0.8;
-    font-weight: 500;
+    color: #839496; 
+/*     opacity: 0.8; */
+    opacity: 0.6;
+/*     font-weight: 500; */
 }
 
 .project.done > .notes > .content{
     color: #93A1A1;
-	opacity: 0.8;
-    font-weight: 500;
+/*  opacity: 0.8; */
+    opacity: 0.6;
+/*     font-weight: 500; */
 }
 
 .project > .name > .content
 {
-  	border-color: #eee8d5;
-    color: #657B83;		
+    border-color: #eee8d5;
+    color: #657B83;   
 }
 
 .project > .notes > .content
 {
-    color: #839496;	
+    color: #839496; 
 }
 
 .selected.done 
@@ -140,8 +149,8 @@ h1, h2, h3, h4, h5, h6, p, li,
 .project.done > .name > .nameAnimated > .contentTag
 { 
 /*     color: #D33682;   */
-/* 	color: #268BD2; */
-	color: #839496;	
+/*  color: #268BD2; */
+  color: #839496; 
     opacity: 0.8;
 }
 
@@ -151,6 +160,12 @@ h1, h2, h3, h4, h5, h6, p, li,
     background-color: #586E75 !important;    */
   color: #FDF6E3;
   background-color: #B58900 !important;   
+}
+
+.highlighted::before,
+.addedToSelection::before
+{
+    background-color: #EEE8D5 !important;
 }
 
 /* FADE IN TOOLBAR ON HOVER */
@@ -184,3 +199,4 @@ textarea.enhanced a
 {
     color: #268bd2; 
 }
+
