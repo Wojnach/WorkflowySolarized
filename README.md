@@ -6,11 +6,11 @@ scheme for use with [Workflowy](https://workflowy.com/) - mainly in combination 
 ## Installation
 
 Use either `WorkflowySolarized*.css` files in a
-plugin like [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe) to apply the 
+plugin like [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe) to apply the
 color scheme.
 
 ## Preview
 
-![Solarized Dark](https://raw.github.com/wojnach/WorkflowySolarized/master/WorkflowySolarized_Dark_Preview.png)
+![Solarized Dark](https://raw.github.com/wojnach/WorkflowySolarized/master/WorkflowySolarized_Dark_Preview.pn)
 
-![Solarized Light](https://raw.github.com/wojnach/WorkflowySolarized/master/WorkflowySolarized_Light_Preview.png)
+![Solarized Light](https://raw.github.com/wojnach/WorkflowySolarized/master/WorkflowySolarized_Light_Preview.pn)
