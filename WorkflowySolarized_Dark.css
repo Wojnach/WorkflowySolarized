@@ -1,14 +1,14 @@
 
 /*
-	#CB4B16 == ORANGE
-	#268BD2 == BLUE
-	#6C71C4 == PURPLE
+  #CB4B16 == ORANGE
+  #268BD2 == BLUE
+  #6C71C4 == PURPLE
     #2AA198 == SLIME GREEN
 */
 
 body 
 {
-	background: #073642;
+  background: #073642;
 }
 
 body,
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6, p, li,
 .selected.project > .notes > .content,
 .selected.project.done > .notes > .content{
     padding: 0px 5px;
-	color: #93A1A1;	
+  color: #93A1A1; 
 }
 
 .notes > .content {
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, p, li,
 
 .project.done > .name > .content
 {
-	opacity: 0.5;
+  opacity: 0.5;
 /*     font-weight: 500; */
     color: #657B83;
 }
@@ -93,28 +93,40 @@ h1, h2, h3, h4, h5, h6, p, li,
 }
 
 .project > .name > .content{
-  	border-color: #002B36;
-    //color: #839496;	
-	color: #93A1A1;
+    border-color: #002B36;
+    //color: #839496; 
+  color: #93A1A1;
 }
 
 
 .project > .notes > .content{
-	//color: #657B83;
-	//color: #586E75;
-	color: #839496;
+  //color: #657B83;
+  //color: #586E75;
+  color: #839496;
 }
 
 .selected.done {
-	color: #2AA198;    
+  color: #2AA198;    
 }
 
-.project.open > .children,
+/* .project.open > .children,
 .project.open.done > .children {
+    border-left-color: rgba(88,110,117, 0.4);
     border-left-color: #073642;
+} */
+
+.project.open > .children
+{
+    border-left-color: rgba(203,75,22, 0.4);
+}
+.project.open.done > .children 
+{
+    border-left-color: rgba(42,161,152, 0.4);
 }
 
-.project.done > .name > a.bullet {   
+
+.project.done > .name > a.bullet 
+{   
     color: #2AA198; 
 }
 
@@ -128,8 +140,8 @@ h1, h2, h3, h4, h5, h6, p, li,
 .project.task > .name > .bullet,
 .project.open > .name > .bullet 
 {
-	background-color: transparent; 
-	color: #CB4B16; 
+  background-color: transparent; 
+  color: #CB4B16; 
 }
 
 .selected.project > .name > .content .contentTag:hover,
@@ -137,7 +149,7 @@ h1, h2, h3, h4, h5, h6, p, li,
 .selected.project > .name > .content .contentTag,
 .selected.project > .name > .nameAnimated .contentTag{
     //background: #002B36;
-	//color: #D33682;
+  //color: #D33682;
     color: #268BD2;      
 }
 
@@ -155,7 +167,7 @@ h1, h2, h3, h4, h5, h6, p, li,
 .project.done > .name > .nameAnimated > .contentTag{
 /*     color: #D33682;   */
     opacity: 0.5;
-	color: #657B83;	
+  color: #657B83; 
 }
 
 ::selection
@@ -176,8 +188,9 @@ h1, h2, h3, h4, h5, h6, p, li,
 
 .page 
 {
-	margin-top: 30px;
+  margin-top: 30px;
 }
+
 .header 
 {
     opacity: 0;

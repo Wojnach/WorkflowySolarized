@@ -109,6 +109,16 @@ h1, h2, h3, h4, h5, h6, p, li,
     border-left-color: #FDF6E3;
 }
 
+.project.open > .children
+{
+    border-left-color: rgba(203,75,22, 0.4);
+}
+.project.open.done > .children 
+{
+    border-left-color: rgba(42,161,152, 0.4);
+}
+
+
 .project.done > .name > a.bullet 
 {   
     color: #2AA198; 
