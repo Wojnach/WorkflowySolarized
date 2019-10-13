@@ -23,12 +23,14 @@ body,
 h1, h2, h3, h4, h5, h6, p, li,
 .entry-title
 {
-/*     font-family: 'Menlo', sans-serif; */
-/*     font-family: 'Lato', sans-serif; */
-/*     font-family: 'Terminus', sans-serif; */
-/*     font-family: 'DejaVuSans', sans-serif; */
-    font-family: 'Roboto', sans-serif;
-/*     font-family: 'Ubuntu', sans-serif; */
+/*     font-family: 'Menlo', monospace; */
+/*     font-family: 'Lato mono', monospace; */
+/*     font-family: 'Terminus', monospace; */
+/*     font-family: 'Ubuntu mono', monospace; */
+/*     font-family: 'Inconsolata', monospace; */
+/*     font-family: 'DejaVuSans', monospace; */
+/*     font-family: 'OpenSans', monospace; */
+       font-family: 'Roboto', sans-serif;
 /*     font-weight: 500; */
 /*     font-weight: bold; */
 }
@@ -81,14 +83,14 @@ h1, h2, h3, h4, h5, h6, p, li,
 
 .project.done > .name > .content
 {
-  opacity: 0.5;
-/*     font-weight: 500; */
+  opacity: 0.6;
+    //color: #93A1A1;
     color: #657B83;
 }
 
 .project.done > .notes > .content{
-    opacity: 0.5;
-/*     font-weight: 500; */
+    opacity: 0.6;
+    //color: #839496;
     color: #586E75;
 }
 
@@ -97,7 +99,6 @@ h1, h2, h3, h4, h5, h6, p, li,
     //color: #839496; 
   color: #93A1A1;
 }
-
 
 .project > .notes > .content{
   //color: #657B83;
@@ -166,7 +167,7 @@ h1, h2, h3, h4, h5, h6, p, li,
 .project.done > .name > .content > .contentTag,
 .project.done > .name > .nameAnimated > .contentTag{
 /*     color: #D33682;   */
-    opacity: 0.5;
+    //opacity: 0.5;
   color: #657B83; 
 }
 
@@ -174,9 +175,12 @@ h1, h2, h3, h4, h5, h6, p, li,
 {
 /*    color: #93A1A1;
     background-color: #268BD2 !important; */
-    color: #268BD2;
-    background-color: #93A1A1 !important;    
+/*     color: #268BD2;
+    background-color: #93A1A1 !important;     */
+    color: #FDF6E3;
+  background-color: #278BD2 !important;   
 }
+
 
 .highlighted::before,
 .addedToSelection::before
