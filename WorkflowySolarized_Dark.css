@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6, p, li,
 
 .project.done > .name > .content
 {
-  opacity: 0.6;
+    opacity: 0.6;
     //color: #93A1A1;
     color: #657B83;
 }
@@ -96,14 +96,14 @@ h1, h2, h3, h4, h5, h6, p, li,
 
 .project > .name > .content{
     border-color: #002B36;
-    //color: #839496; 
-  color: #93A1A1;
+    //color: #93A1A1;
+    color: #839496; 
 }
 
 .project > .notes > .content{
   //color: #657B83;
-  //color: #586E75;
-  color: #839496;
+  //color: #839496;
+  color: #586E75;
 }
 
 .selected.done {
