@@ -74,20 +74,17 @@ h1, h2, h3, h4, h5, h6, p, li,
   max-height: none !important;
 }
 
-.project.done > .name > .content
+/* .project.done > .name > .content
 {
     color: #839496; 
-/*     opacity: 0.8; */
     opacity: 0.6;
-/*     font-weight: 500; */
 }
 
-.project.done > .notes > .content{
+.project.done > .notes > .content
+{
     color: #93A1A1;
-/*  opacity: 0.8; */
     opacity: 0.6;
-/*     font-weight: 500; */
-}
+} */
 
 .project > .name > .content
 {
