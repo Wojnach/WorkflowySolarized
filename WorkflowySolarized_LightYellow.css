@@ -23,7 +23,12 @@ body,
 h1, h2, h3, h4, h5, h6, p, li,
 .entry-title
 {
-	font-family: 'Roboto', sans-serif;
+/* 	font-family: 'Roboto', sans-serif;     */
+    font-family: 'Fira Code';    
+/*     font-family: 'Roboto Mono';     */
+/* 	font-family: 'Menlo';     */
+/* 	font-family: 'Inconsolata', monospace;     */
+/*     font-family: 'Consolas', monospace;     */
 }
 
 .edge,
@@ -74,22 +79,36 @@ h1, h2, h3, h4, h5, h6, p, li,
   max-height: none !important;
 }
 
-/* .project.done > .name > .content
+.project.done > .name > .content
 {
     color: #839496; 
-    opacity: 0.6;
+    opacity: 0.4;
+    
+/*     text-decoration-style: solid; */
+/*     text-decoration: none; */
+/*     text-decoration: underline; */
+/*     text-decoration: overline; */
+/*     text-decoration: underline overline line-through; */
+    text-decoration: line-through;
+/*     text-decoration-style: double; */
+/*     text-decoration-style: wavy; */
 }
 
 .project.done > .notes > .content
 {
     color: #93A1A1;
-    opacity: 0.6;
-} */
+    opacity: 0.4;
+    text-decoration: line-through;
+/* 	text-decoration: underline overline line-through; */
+/*     text-decoration-style: double; */
+/*     text-decoration-style: wavy; */
+}
+
 
 .project > .name > .content
 {
     border-color: #eee8d5;
-    color: #657B83;   
+    color: #657B83;                                              
 }
 
 .project > .notes > .content
@@ -115,13 +134,16 @@ h1, h2, h3, h4, h5, h6, p, li,
 }
 .project.open.done > .children 
 {
-    border-left-color: rgba(42,161,152, 0.4);
+/*     border-left-color: rgba(42,161,152, 0.4); */
+    border-left-color: rgba(147,161,161, 0.4);
 }
-
 
 .project.done > .name > a.bullet 
 {   
-    color: #2AA198; 
+/*     color: #2AA198; */
+/*     color: #839496; */
+    color: #93A1A1;
+    opacity: 0.4;
 }
 
 .bullet 
@@ -154,14 +176,19 @@ h1, h2, h3, h4, h5, h6, p, li,
 /*     color: #b58900; */
 }
 
-.project.done > .name > .content > .contentTag:hover,
-.project.done > .name > .nameAnimated > .contentTag:hover,
-.project.done > .name > .content > .contentTag,
-.project.done > .name > .nameAnimated > .contentTag
+.project.done > .name > .content > .innerContentContainer .contentTag,
+.project.done > .notes > .content > .innerContentContainer .contentTag
 { 
 /*     color: #D33682;   */
 /*  color: #b58900; */
-  color: #839496; 
+  	color: #839496; 
+	opacity: 0.8;
+}
+
+.project.done > .name > .content > .innerContentContainer .contentLink,
+.project.done > .notes > .content > .innerContentContainer .contentLink
+{
+    color: #839496; 
     opacity: 0.8;
 }
 
@@ -169,8 +196,10 @@ h1, h2, h3, h4, h5, h6, p, li,
 {
 /*     color: #B58900;
     background-color: #586E75 !important;    */
-  color: #FDF6E3;
-  background-color: #B58900 !important;   
+    color: #FDF6E3;
+    background-color: #B58900 !important;
+/* 	text-decoration: none; */
+/*     text-decoration-style: line-through; */
 }
 
 .highlighted::before,
