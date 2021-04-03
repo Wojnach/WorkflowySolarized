@@ -64,7 +64,9 @@ h1, h2, h3, h4, h5, h6, p, li,
     border-radius: 30px;
 }
 .selected.project.done > .name > .content {
-    color: #2AA198;    
+/*     color: #2AA198;     */
+    color: #839496; 
+    opacity: 0.5;
 }
 .selected.project > .notes > .content,
 .selected.project.done > .notes > .content{
@@ -78,32 +80,6 @@ h1, h2, h3, h4, h5, h6, p, li,
   -webkit-line-clamp: none !important;
   max-height: none !important;
 }
-
-.project.done > .name > .content
-{
-    color: #839496; 
-    opacity: 0.4;
-    
-/*     text-decoration-style: solid; */
-/*     text-decoration: none; */
-/*     text-decoration: underline; */
-/*     text-decoration: overline; */
-/*     text-decoration: underline overline line-through; */
-    text-decoration: line-through;
-/*     text-decoration-style: double; */
-/*     text-decoration-style: wavy; */
-}
-
-.project.done > .notes > .content
-{
-    color: #93A1A1;
-    opacity: 0.4;
-    text-decoration: line-through;
-/* 	text-decoration: underline overline line-through; */
-/*     text-decoration-style: double; */
-/*     text-decoration-style: wavy; */
-}
-
 
 .project > .name > .content
 {
@@ -130,12 +106,28 @@ h1, h2, h3, h4, h5, h6, p, li,
 .project.open > .children
 {
 /*     border-left-color: rgba(203,75,22, 0.4); */
-    border-left-color: rgba(181,137,0, 0.4);
+    border-left-color: rgba(181,137,0, 1);
 }
 .project.open.done > .children 
 {
 /*     border-left-color: rgba(42,161,152, 0.4); */
-    border-left-color: rgba(147,161,161, 0.4);
+    border-left-color: rgba(147,161,161, 0.5);
+}
+
+.project.done > .name > .content
+{
+    color: #839496; 
+    opacity: 0.5;
+/*     text-decoration: line-through; */
+	text-decoration: none;
+}
+
+.project.done > .notes > .content
+{
+    color: #93A1A1;
+    opacity: 0.5;
+/*     text-decoration: line-through; */
+    text-decoration: none;
 }
 
 .project.done > .name > a.bullet 
@@ -143,7 +135,7 @@ h1, h2, h3, h4, h5, h6, p, li,
 /*     color: #2AA198; */
 /*     color: #839496; */
     color: #93A1A1;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .bullet 
